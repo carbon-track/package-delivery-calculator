@@ -1,0 +1,74 @@
+{
+  "version": "demo-v1.0.0",
+  "region": "教学演示 · 不对应真实地区",
+  "year": 2026,
+  "demoOnly": true,
+  "materials": [
+    {
+      "material": "corrugated_cardboard",
+      "kgCO2ePerKg": 0.8,
+      "unit": "kgCO2e/kg",
+      "sourceRefId": "DEMO-M01",
+      "sourceUrl": "/methodology#demo",
+      "note": "人为设置的教学系数，未经实证验证"
+    },
+    {
+      "material": "paper",
+      "kgCO2ePerKg": 1,
+      "unit": "kgCO2e/kg",
+      "sourceRefId": "DEMO-M02",
+      "sourceUrl": "/methodology#demo"
+    },
+    {
+      "material": "kraft_paper",
+      "kgCO2ePerKg": 0.9,
+      "unit": "kgCO2e/kg",
+      "sourceRefId": "DEMO-M03",
+      "sourceUrl": "/methodology#demo"
+    },
+    {
+      "material": "ldpe_plastic",
+      "kgCO2ePerKg": 2.5,
+      "unit": "kgCO2e/kg",
+      "sourceRefId": "DEMO-M04",
+      "sourceUrl": "/methodology#demo"
+    },
+    {
+      "material": "mixed_plastic",
+      "kgCO2ePerKg": 3,
+      "unit": "kgCO2e/kg",
+      "sourceRefId": "DEMO-M05",
+      "sourceUrl": "/methodology#demo"
+    },
+    {
+      "material": "adhesive_tape",
+      "kgCO2ePerKg": 2.2,
+      "unit": "kgCO2e/kg",
+      "sourceRefId": "DEMO-M06",
+      "sourceUrl": "/methodology#demo"
+    }
+  ],
+  "transport": [
+    {
+      "mode": "parcel_van",
+      "kgCO2ePerParcelKm": 0.0012,
+      "allocationMethod": "假设每包裹每公里固定分摊；无重量或载重校正，仅演示",
+      "sourceRefId": "DEMO-T01",
+      "sourceUrl": "/methodology#demo"
+    },
+    {
+      "mode": "truck",
+      "kgCO2ePerParcelKm": 0.0005,
+      "allocationMethod": "假设每包裹每公里固定分摊；无重量或载重校正，仅演示",
+      "sourceRefId": "DEMO-T02",
+      "sourceUrl": "/methodology#demo"
+    },
+    {
+      "mode": "mixed_ground",
+      "kgCO2ePerParcelKm": 0.0008,
+      "allocationMethod": "假设陆路混合运输每包裹每公里固定分摊，仅演示",
+      "sourceRefId": "DEMO-T03",
+      "sourceUrl": "/methodology#demo"
+    }
+  ]
+}
