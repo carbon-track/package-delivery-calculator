@@ -64,6 +64,9 @@ public/                  原创插画、favicon、安全响应头
 
 ## Cloudflare 与 AI
 
+- 线上地址：[https://package.carbontrackapp.com](https://package.carbontrackapp.com)
+- 健康检查：[https://package.carbontrackapp.com/api/health](https://package.carbontrackapp.com/api/health)
+
 [部署与可选 AI 配置](docs/DEPLOYMENT.md) 包含从登录到发布的完整步骤。基础网站无需 API key、D1、KV 或 R2；AI 可稍后通过 Workers AI binding 开启。
 
 [后续任务](docs/TASKS.md) · [插画来源与生成记录](docs/implementation/ASSETS.md)
